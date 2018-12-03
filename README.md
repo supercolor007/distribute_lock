@@ -1,9 +1,11 @@
 # distribute_lock
 分布式锁
 
-- setNX 原子性写入
-- lua脚本 原子性删除
+- 高效处理cas命令
+  - 插入 setNX 
+  - 删除 lua脚本 
 - 即插即用
+- 阿里云redis版本必须升级到支持lua的版本
 
 ```xml
         <dependency>
