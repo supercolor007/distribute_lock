@@ -1,10 +1,9 @@
 # distribute_lock
 分布式锁
 
-# setNX 原子性写入
-# lua脚本 原子性删除
-
-# 即插即用
+- setNX 原子性写入
+- lua脚本 原子性删除
+- 即插即用
 
 ```xml
         <dependency>
